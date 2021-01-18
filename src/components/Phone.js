@@ -101,7 +101,6 @@ class Phone extends Component {
               }
             } className='btn btn-danger'>Eliminar</button>
             
-            <div className='clearfix'></div>
           </article>
           }
 
@@ -123,6 +122,7 @@ class Phone extends Component {
         </section>
 
         <Sidebar  />
+        <div className='clearfix'></div>
       </div>
     )
   }
