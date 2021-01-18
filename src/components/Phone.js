@@ -91,7 +91,7 @@ class Phone extends Component {
               <li><span>{this.state.phone.screen} screen </span></li>
               <li>available in <span>{this.state.phone.color}</span></li>
             </ul>
-            <p>Manufacturer by <strong>{this.state.phone.manufacturer}</strong></p>
+            <p>Manufactured by <strong>{this.state.phone.manufacturer}</strong></p>
             <br/>
 
             <Link to={'/telefonos/editar/' + this.state.phone._id} className='btn btn-warning'>Editar</Link>
